@@ -1,29 +1,30 @@
 #marker-ic {
-  width: 100px;
-  height: 30px;
+  width: 114px;
+  height: 26px;
   background: #fff;
-  box-shadow: 0 3px 10px rgba(100, 100, 100, 1);
-  border-radius: 1px;
+  box-shadow: 0 3px 10px rgba(100, 100, 100, 0.8);
+  border-radius: 3px;
   position: absolute;
+  text-align: center;
 }
 
 #marker-ic span {
-	display: block;
-	float: left;
+	display: inline-block;
 	width: 16px;
 	height: 16px;
-	margin: 3px;
+	margin: 5px;
+	border-radius: 3px;
 }
 
 #marker-ic .good {
-	background: transparent url('icons/good.png') 0 0 no-repeat;
+	background: red url('icons/good.png') 0 0 no-repeat;
 }
 #marker-ic .meh {
-	background: transparent url('icons/meh.png') 0 0 no-repeat;
+	background: yellow url('icons/meh.png') 0 0 no-repeat;
 }
 #marker-ic .bad {
-	background: transparent url('icons/bad.png') 0 0 no-repeat;
+	background: green url('icons/bad.png') 0 0 no-repeat;
 }
 #marker-ic .facebook {
-	background: transparent url('icons/facebook.gif') 0 0 no-repeat;
+	background: blue url('icons/facebook.gif') 0 0 no-repeat;
 }
