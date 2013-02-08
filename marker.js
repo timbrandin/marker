@@ -1,5 +1,4 @@
-var marker = $('<div />', {id: 'marker-ic'});
-
+var marker = $('<div />', {id: 'marker-ic'}).html('<span class="good"></span><span class="meh"></span><span class="bad"></span><span class="facebook"></span>');
 $(document).bind('mouseup', function(e) {
   setTimeout(function() {
     var selection = getSelectionHtml();
