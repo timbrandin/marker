@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Marker",
+  "description": "This extension test facebook like as a marking service.",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["http://www.dagensnyheter.se/*"],
+      "css": ["marker.css"],
+      "js": ["jquery-1.9.1.min.js", "marker.js"]
+    }
+  ]
+}
