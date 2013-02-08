@@ -4,8 +4,6 @@ $(document).bind('mouseup', function(e) {
   setTimeout(function() {
     var selection = getSelectionHtml();
 
-    console.log(selection.length);
-
     if (selection.length > 0) {
 
       marker.css({
