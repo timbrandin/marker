@@ -1,8 +1,24 @@
 #marker-ic {
-  width: 100px;
+  width: 120px;
   height: 30px;
   background: #fff;
-  box-shadow: 0 3px 10px rgba(100, 100, 100, 1);
-  border-radius: 1px;
+  box-shadow: 0 6px 16px rgba(100, 100, 100, 1);
+  border-radius: 2px;
   position: absolute;
+  text-align: center;
+}
+
+#marker-ic img {
+  margin:  3px;
+  border: solid 1px #fff;
+  padding: 3px;
+}
+
+#marker-ic img:hover {
+  border: solid 1px #ddd;
+}
+
+#marker-ic img.clicked,
+#marker-ic img:active {
+  opacity: 0.4;
 }

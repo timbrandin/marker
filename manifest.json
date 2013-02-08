@@ -11,5 +11,11 @@
       "css": ["marker.css"],
       "js": ["jquery-1.9.1.min.js", "marker.js"]
     }
+  ],
+  "web_accessible_resources": [
+    "icons/good.png",
+    "icons/bad.png",
+    "icons/facebook.gif",
+    "icons/meh.png"
   ]
 }
